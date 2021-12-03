@@ -8,13 +8,15 @@ Notes:
 Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:  
   - AbstractAnnotationConfigDispatcherServletInitializer  
   - DemoAppConfig  
-  
+
+Maven project:  
+  - pure java config =>No web.xml => must add: maven-war-plugin in pom.xml
+
 Spring security config two classes:  
   - AbstractSecurityWebApplicationInitializer  
   - WebSecurityConfigurerAdapter  
 
-Maven project:  
-  - Not use  web.xml => must add: maven-war-plugin in pom.xml
+
 
 
 Initial commit. Basic Spring Security demo app with Default Login Form. User account strored in memory.  
