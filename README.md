@@ -10,7 +10,7 @@ Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:
   - DemoAppConfig  
 
 Maven project:  
-  - pure java config =>No web.xml => must add: maven-war-plugin in pom.xml
+  - pure java config => no web.xml => must add: maven-war-plugin in pom.xml
 
 Spring security config two classes:  
   - AbstractSecurityWebApplicationInitializer  
