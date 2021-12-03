@@ -1,5 +1,6 @@
 # 08-spring-security-demo
-Spring Security Learning Project. Display content based on roles. User account stored in database.
+Spring Security Learning Project. Display content based on roles. User account stored in database.  
+Maven project.
 
 
 Notes: 
