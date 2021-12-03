@@ -11,7 +11,8 @@ Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:
   
 Spring security config two classes:  
   - AbstractSecurityWebApplicationInitializer  
-  - WebSecurityConfigurerAdapter
+  - WebSecurityConfigurerAdapter  
+
 Maven project:  
   - Not use  web.xml => must add: maven-war-plugin in pom.xml
 
