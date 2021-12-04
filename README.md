@@ -16,7 +16,7 @@ Spring Security flash:
  - spring security predefine table schemas:2 tables users(PK username, password, enabled), authorities(username, authoitie)
 
 
-Notes: 
+Notes:  
 Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:  
   - AbstractAnnotationConfigDispatcherServletInitializer  
   - DemoAppConfig  
