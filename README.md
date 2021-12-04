@@ -13,8 +13,9 @@ Spring Security flash:
  - error, logout – param send back via url, can be used in jsp page;
  - form:form - protects  against Sea Surf(CSRF) with randomly generated token for each request; POST method;
  - predefine names: username, password , authorities,  
- - spring security predefine table schemas:2 tables users(PK username, password, enabled), authorities(username, authoitie)
-
+ - spring security predefine table schemas:2 tables users(PK username, password, enabled), authorities(username, authoitie)  
+ 
+ 
 
 Notes:  
 Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:  
