@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.luv2code</groupId>
-	<artifactId>spring-security-demo</artifactId>
+	<groupId>com.andrei</groupId>
+	<artifactId>08-spring-security-demo</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>spring-security-demo-08</name>
+	<name>08-spring-security-demo</name>
 
 	<properties>
 		<springframework.version>5.3.13</springframework.version>
@@ -42,6 +42,7 @@
 		</dependency>	
 		
 		<!-- Add Spring Security Taglibs support -->
+		<!-- for printing users and roles(authorities) -->
 		
 		<dependency>
 		    <groupId>org.springframework.security</groupId>
@@ -91,10 +92,10 @@
 
 	</dependencies>
 
-	<!-- TO DO: Add support for Maven WAR Plugin -->
+	<!-- Add support for Maven WAR Plugin -->
 
 	<build>
-		<finalName>spring-security-demo-08</finalName>
+		<finalName>08-spring-security-demo</finalName>
 	
 		<pluginManagement>
 			<plugins>

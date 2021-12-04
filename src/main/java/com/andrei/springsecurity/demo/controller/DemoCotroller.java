@@ -10,5 +10,15 @@ public class DemoCotroller {
 	public String showHome() {
 		return "home";
 	}
+	
+	@GetMapping("/leaders")
+	public String showLeaders() {
+		return "leaders";
+	}
+	
+	@GetMapping("/systems")
+	public String showSystems() {
+		return "systems";
+	}
 
 }
