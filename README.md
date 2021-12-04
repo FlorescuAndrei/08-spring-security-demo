@@ -25,7 +25,7 @@ Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:
 Maven project:  
   - pure java config => no web.xml => must add: maven-war-plugin in pom.xml  
 
-user bcrypt password: 123  
+user bcrypt password: 123  bcrypt-generator.com  
 Initial commit. Basic Spring Security demo app with Default Login Form. User account strored in memory.  
 
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
