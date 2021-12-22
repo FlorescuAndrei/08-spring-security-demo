@@ -5,8 +5,8 @@ Display content based on roles. User account stored in database.
   
     
 Spring security config two classes:  
-  - AbstractSecurityWebApplicationInitializer  
-  - WebSecurityConfigurerAdapter  
+  - AbstractSecurityWebApplicationInitializer.java  
+  - WebSecurityConfigurerAdapter.java  
 
 Spring Security flash: 
  - two config classes (initializer and @Configuration); --> activate Security Filter --> loggin page (default or personal) ;
@@ -19,8 +19,8 @@ Spring Security flash:
 
 Notes:  
 Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:  
-  - AbstractAnnotationConfigDispatcherServletInitializer  
-  - DemoAppConfig  
+  - AbstractAnnotationConfigDispatcherServletInitializer.java  
+  - DemoAppConfig.java  
 
 Maven project:  
   - pure java config => no web.xml => must add: maven-war-plugin in pom.xml  
