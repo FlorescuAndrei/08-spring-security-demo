@@ -44,6 +44,8 @@ pom.xml
 user bcrypt password: 123  bcrypt-generator.com  
 Initial commit. Basic Spring Security demo app with Default Login Form. User account strored in memory.    
 
+![Project Design:](box/spring-security-app.png)
+
 ![Project Explorer:](box/project-structure.png)
 
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
