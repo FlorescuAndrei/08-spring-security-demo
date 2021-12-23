@@ -23,10 +23,28 @@ Java config, no web.xml and no spring-mvc-demo-servlet.xml, instead two casses:
   - DemoAppConfig.java  
 
 Maven project:  
-  - pure java config => no web.xml => must add: maven-war-plugin in pom.xml  
+  - pure java config => no web.xml => must add: maven-war-plugin in pom.xml     
+
+
+To run in eclipse:  
+  - import as maven project,
+  - Run As ->Run on Server 
+user: john, mary, susan; password 123
+
+pom.xml   
+  - dependency  
+      - Sping MVC support: spring-web-mvc;
+      - Spring security support: spring-security-web; spring-security-config; spring-security-taglibs;
+      - MySQL, C3P0 support: mysql-connector-java; c3p0;
+      - Servlet, JSP and JSTL support: javax.servlet-api; javax.servlet.jsp-api; jstl;
+  - plugins  
+      - maven-war-plugin
+
 
 user bcrypt password: 123  bcrypt-generator.com  
-Initial commit. Basic Spring Security demo app with Default Login Form. User account strored in memory.  
+Initial commit. Basic Spring Security demo app with Default Login Form. User account strored in memory.    
+
+![Project Explorer:](box/project-structure.png)
 
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
 
